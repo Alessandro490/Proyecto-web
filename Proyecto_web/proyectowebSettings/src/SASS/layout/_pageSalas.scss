@@ -1,0 +1,74 @@
+.tab1 {
+    display: flex;
+    flex-direction: column;
+  
+    #titulo-salas {
+      padding-top: 0.5vh;
+      margin-top: -3vh;
+      width: 10vw;
+      height: 5vh;
+      font-size: 2vw;
+      font-weight: bold;
+      color: white;
+      text-decoration: underline white;
+    }
+  
+    .contenedor-salas {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 1vh;
+      width: 95vw;
+      height: 72vh;
+  
+      .crear-salaContenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18vw;
+        height: 20vh;
+        background-image: url("../../IMG/Fondos/borroso.jpg");
+        background-size: cover;
+        border: 2px solid black;
+        border-radius: 1.5vw;
+        margin: 0.5vw;
+  
+        .btn-agregar-sala {
+          border-radius: 1.5vw;
+          width: 15vw;
+          height: 15vh;
+          border: 0;
+          background: transparent;
+          color: transparent;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+  
+      .btn-agregar-sala:hover {
+        color: black;
+        font-size: 5vw;
+      }
+    }
+  
+    .contenedor-paginacion {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto -3vh;
+      width: 25vw;
+      height: 5vh;
+      padding: 0.5vh;
+  
+      .paginacion {
+        width: 2.5vw;
+        height: 4vh;
+        border-radius: 1.5vw;
+        margin-right: 1vw;
+        font-size: 1vw;
+      }
+    }
+    .paginacion:hover{
+      background-color: rgb(4, 255, 251);
+      transform: translateY(-0.3vh);
+    }
+  }
+  

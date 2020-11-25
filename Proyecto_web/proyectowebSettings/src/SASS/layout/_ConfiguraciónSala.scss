@@ -1,0 +1,121 @@
+/*SASS DE LA PARTE DONDE SE INTRODUCE EL NOMBRE Y LAS FECHAS */
+
+.tabConfiguracionSalas{
+    display: flex;
+    position: absolute;
+    background-image: url("../../IMG/Fondos/cobitos.jpg");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: 1;
+  
+  
+  //Contendor izquierdo que tiene el input para ingresar el nombre 
+  //de la sala
+    .contenedor-left{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50vw;
+  
+      //Contendor interno que es el que encapsula los demas componentes
+
+      .contenedor-leftInterno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+        height: 60%;
+        background: rgba(214, 213, 213, 0.7);
+        border: 0.150vw solid black;
+        border-radius: 2vw;
+
+        //Letra que esta arriba del input 
+      //Agregamos colores y tamaños
+
+      .txt-nombreSala{
+        color: black;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+      .input-nombre-sala{
+        width: 27vw;
+        height: 15vh;
+        font-size: 3.5vw;
+        text-align: center;
+        font-weight: bold;
+        border:0.2vw solid black;
+        border-radius: 1vw;
+        margin-top: 2vh;
+        cursor: text;
+        outline: none;
+      }
+  }
+}
+
+
+    //Contendor derecho que almacena los datos de la fecha
+
+    .contenedor-rigth{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 40vw;
+
+      //Contenedor que encapsula la fecha de caducidad y el input
+      .contenedor-rigthInterno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 40%;
+        background: rgba(214, 213, 213, 0.7);
+        border: 0.150vw solid black;
+        border-radius: 2vw;
+
+
+        .txt-Caducidad{
+          width: 16vw;
+          text-align: center;
+          line-height: 2.5vh;
+          color: black;
+        font-size: 1.3vw;
+        font-weight: bold;
+        }
+
+        .Establecer-fecha{
+          margin-top: 5vh;
+          width: 20vw;
+          height: 8vh;
+          font-size: 1.3vw;
+          padding: 0.5vw;
+          border-radius: 1vw;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+
+      .btn-confiSala{
+        width: 20vw;
+        height: 15vh;
+        border: 0.2vw solid black;
+        border-radius: 2vw;
+        font-size: 2.5vw;
+        font-weight: bold;
+        background-color: rgb(1, 167, 20);
+        color: white;
+        cursor: pointer;
+        outline: none;
+
+      }
+      
+    }
+  }
+
+

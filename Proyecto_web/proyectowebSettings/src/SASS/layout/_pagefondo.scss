@@ -1,0 +1,95 @@
+.tab5 {
+    display: flex;
+  
+    .contendor-fondos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 45%;
+      height: 65vh;
+      background: rgba(138, 138, 138, 0.496);
+      margin: 3vh 6vw 0 4vw;
+      border-radius: 25px;
+  
+      /*CONTENEDORES DE FONDOS*/
+      #txt-fondos {
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-size: 2.5vw;
+        text-align: center;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      }
+  
+      #fondo1,
+      #fondo2,
+      #fondo3,
+      #fondo4 {
+        width: 45%;
+        height: 23vh;
+        border-radius: 10px;
+        background-size: cover;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        transition: all 0.25s;
+        -webkit-box-shadow: -1px 2px 24px 3px rgba(0, 0, 0, 0.67);
+        -moz-box-shadow: -1px 2px 24px 3px rgba(0, 0, 0, 0.67);
+        box-shadow: -1px 2px 24px 3px rgba(0, 0, 0, 0.67);
+      }
+      #fondo1 {
+        background-image: url("../../IMG/Fondos/cobitos.jpg");
+      }
+      #fondo2 {
+        background-image: url("../../IMG/Fondos/cubos\ -\ copia.jpg");
+      }
+      #fondo3 {
+        background-image: url("../../IMG/Fondos/image.png");
+      }
+      #fondo4 {
+        background-image: url("../../IMG/Fondos/IMG-20200905-WA0071.jpg");
+      }
+  
+      #fondo1:hover,
+      #fondo2:hover,
+      #fondo3:hover,
+      #fondo4:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+      }
+    }
+  
+    .contenedor-colores {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 30vw;
+      height: 60vh;
+      background: rgba(138, 138, 138, 0.496);
+      margin: 12vh 1vw 0 5vw;
+      border-radius: 25px;
+  
+      #txt-colores {
+        font-weight: bold;
+        margin-top: 1vh;
+        color: rgb(255, 255, 255);
+        font-size: 2.5vw;
+        text-align: center;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+        line-height: 4.5vh;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+      }
+      #pickerColor {
+        border: 4px solid black;
+        width: 20vw;
+        height: 40vh;
+        border-radius: 100%;
+        overflow: hidden;
+        outline-style: none;
+        background-color: black;
+      }
+      #pickerColor:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0);
+      }
+    }
+  }
+  

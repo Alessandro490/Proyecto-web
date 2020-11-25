@@ -1,0 +1,102 @@
+
+.btn-cambiar-login{
+    border-radius: 4px;
+    padding: 15px 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: lightgray;
+    color: white;
+    width: 18vw;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 0 8px 16px 0 rgba(165, 46, 46, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: auto auto auto auto;
+    margin-left: 35px;
+    margin-bottom: 170px;
+  
+ 
+    h1{
+        
+        color: dimgrey;
+        font-weight: 900;
+        font-size: 2.5vh;
+        
+    }
+}
+.div-btn-enter{
+      padding-top: 1vh;
+     
+    .btn-enter{
+
+        border-radius: 4px;
+        width: 3vw;
+        height: 6vh;
+        border-radius: 10px;
+        font-size: 0px;
+        box-shadow: 0 8px 16px 0 rgba(165, 46, 46, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     
+    }
+    
+
+}
+
+.btn-enter:hover{
+cursor: pointer;
+background: white;
+color: black;
+
+}
+
+.btn-enter:active{
+
+transform: translateY(4px);
+background: #70B4F8;
+color:white;
+
+}
+
+#btn-codigo{
+    padding: 5vh;
+}
+
+#btn-cambiar{
+  padding-top: 1vh;
+  
+   &-pass{
+       outline: none;
+       cursor: pointer;
+        padding: 0.5vw;
+        width: 10vw;
+        border-radius: 2vw;
+        font-weight: 400;
+        background-color: rgb(231, 94, 94);
+        color: white;
+        
+        h1{
+            font-family: 'Chewy', cursive;
+            font-size: 1.5vw;
+        }
+    }
+
+}
+.back{
+    padding-top: 1vh;
+.btn-left{
+    border-radius: 4px;
+        width: 3vw;
+        height: 6vh;
+        border-radius: 10px;
+        font-size: 0px;
+        box-shadow: 0 8px 16px 0 rgba(165, 46, 46, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+}
+
+#btn-volver{
+    border: black 1px solid;
+    padding: 10px;
+    padding-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,231 @@
+.tab2{
+    display: flex; 
+
+/*      tabla agregar usuarios       */
+#show-user{
+    margin-left: 3vw;
+    background-color: white;
+    opacity: 0.9;
+      height: 70vh;
+      width: 50vw;
+      border-radius: 35px;     
+  } 
+        
+        .Tabla-user{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+  .thead-confi{
+      display: flex;
+      width: 100%;
+    font-size: 1.3vw;
+  }
+
+   
+  .thead-confi tr th{
+         border-bottom: black 1px solid;
+         border-right: black 1px solid;
+            padding: 3vh 1vw;
+  }
+    
+  .thead-user{
+    display: flex;
+    width: 100%;
+  font-size: 1.3vw;
+
+}
+.thead-user tr th{
+       border-bottom: black 1px solid;
+       border-right: black 1px solid;
+          padding:  1vh 1.2vw;
+          align-items: center;
+}
+
+
+
+.btn-garbage{
+   margin-right: 0.3vw;
+    padding: 1vw ;
+    background-color: red;
+    border-radius: 1vw;
+    cursor: pointer;
+    outline: none;
+
+}
+
+/*  esto me sirve para que el espacio th del btn basurero se haga mas ancho        */
+
+.th-btn-garbage{
+   width: 7.4vw;
+}
+
+.btn-locked{
+    margin-right: 0vw;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 1vw;
+    cursor: pointer;
+    outline: none;
+}
+.fa-trash-alt{
+    color: white;
+    font-size: 1vw;
+}
+.fa-ban{
+    font-size: 1vw;
+   
+}
+  /*    Aqui comienza la parte de agregar usuario       */
+
+  #zona-addU{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vw;
+    }
+    .container-add-user{
+        display: flex;
+        height: 34vh;
+        width: 35vw;
+          background-color: white ;
+          opacity: 0.9; 
+          border-radius: 5vh;
+          margin-top: 2vh;
+          
+      }
+
+      .table-AddU{
+         
+          display: flex;
+      }
+    
+       .buscabusca{
+           display: flex;
+           align-items: center;
+       }
+    
+    
+    #h2-add-user{
+        font-size: 2vw;
+        width: 16vw;
+       }
+
+      #btn-config-user{
+          padding-left: 2vw;
+      }
+   /*      me ayuda a posicionar bien los botones Admi y tutor      */
+      #btnA{
+          display: flex;
+          justify-content: center;
+          margin-right: 2vw;
+      }
+
+  
+      .input-ajuste-user{
+      margin-top: 1vh;
+      display: flex;
+      padding: 1vw;
+      font-size: 1vw;
+      border-radius: 0.6vw;
+      background-color: #e9e9e9 ;
+      width: 16vw;
+      height: 6vh;
+  }
+  
+  #inputs-add{
+    padding-top: 1vh;
+      padding-left: 1vw;
+  }
+
+ #h2-type-user{
+     
+     width: 15vw;
+        font-size: 2vw;
+        margin: 2vh 0.1vw -1vh 0.1vw;
+        font-family: Cambira, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+  .btn-ajust-AdorTu{
+      font-size: 1vw;
+      padding: 0.6vw;
+    border-radius: 0.5vw;
+  }
+  
+  #div-agregar-user{ 
+      display: flex;
+      justify-content: center;
+       padding-top: 3vh;
+       margin-right: 2vw;
+     
+  
+  }
+  #btn-agregar-user{
+    padding: 0.6vw;
+    width: 6vw;
+    border-radius: 0.5vw;
+    background-color: rgb(14, 224, 14);
+    cursor: pointer;
+
+   }
+   #h2-btn-agregar-user{
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+   }
+  
+  .div-btn-ajust-AdorTu{
+     
+      padding: 1vw;
+      padding-bottom: 0;
+  }
+
+    
+
+
+
+
+
+
+
+//CONTENEDOR BUSCAR USUARIO
+
+  #container-add-user2{
+      margin-left: 2.7vw;
+      display: flex;
+      justify-content: center;
+      height: 20vh;
+      width: 30vw;
+  }
+
+  .input-search-user{
+    margin-top: 2vh;
+    padding: 1vw;
+    font-size: 1vw;
+    border-radius: 0.6vw;
+    background-color: #e9e9e9 ;
+  }
+  
+  #buscar-user{
+      position: absolute;
+      padding: 1vw;
+      padding-bottom: 0vw;
+      margin-bottom: 0;
+      font-size: 1.5vw;
+  }
+  
+  #btn-buscar{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    padding: 0.8vw;
+    width: 6vw;
+    background-color: rgb(56, 114, 190);
+    border-radius: 1vw;
+    outline: none;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+  }
+}

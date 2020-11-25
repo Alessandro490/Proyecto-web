@@ -1,0 +1,40 @@
+//color
+
+$color-gray : #f9f9f9;
+$color-gray2 : #e9e9e9;
+$color-pass : white;
+
+body{
+    margin: 0;
+}
+
+#body-pass{
+    //background-image: url(/proyecto/Password/assetsde/minecraft.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+#main-pass{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    
+}
+
+//BODY DEL JUGADOR Y ADMI Y TUTOR
+
+.BodyGame{
+    border: 1vw solid #C2BCBC;
+    border-bottom: none;
+  margin: 0;
+}
+
+.header-puntuacion nav div {
+    background-color: #C2BCBC;
+}
+
+
+//FIN DEL BODY JUGADOR Y ADMI Y TUTOR

@@ -1,0 +1,33 @@
+.usuarios {
+    margin: 100px 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cabeza {
+  display: flex;
+  background: white;
+  justify-content: center;
+}
+
+.padre {
+  background-image: url(cubofondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+input[type="submit"] {
+  padding: 15px 42px;
+  font-size: 25px;
+  background: orange;
+  color: white;
+  border-radius: 20px;
+}
+
+.boton {
+  margin: 550px 0 0;
+  display: flex;
+  justify-content: center;
+}

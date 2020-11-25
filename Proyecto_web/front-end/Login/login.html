@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> El juego de la torre </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ac48780b6b.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" type="image/jpg" href="assetsde/tower.png">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Doppio One">
+    <link rel="stylesheet" href="/css/main.css">
+    
+<style>
+    body {
+      overflow: hidden; /* oculta la scrollbar */
+    }
+</style>
+
+</head>
+
+<body>  
+    
+        <!--Musiquita-->
+        <audio src="Song.mp3" loop="4" autoplay="true"></audio>
+    
+
+    <main>
+     
+        <div  class="img-minecraft">
+            <img src="assetsde/piclogin.jpg" alt="" class="img-minecraft-img">
+        </div>
+        
+        <br>
+         <section  class="form-login">
+            <div class="flex-form">
+                <form>
+                    
+             <div class="mi-login"><img class="mi-icono" src="assetsde/circle-cropped.png" alt=""></div>  
+                 
+             <div><label for="fname"></label><br>
+                <input  type="text"  name="fname" id="fname"  class="input-logins" placeholder="Email" minlength= "4" maxlength="20px" required> </div>
+             
+                <div> <label for="fpassword"></label>
+                    <input type="password" class="input-logins" name="fpassword" id="fpassword" placeholder="Password" minlength= "4"   maxlength="15" required></div>
+             
+               <div class="div-btn-enter"> <button onclick="validate()" type="submit"  class="btn-enter"><i class="fas fa-arrow-right"></i></button><br> </div>
+             
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif;" ><a  class="forget-pass" href="/proyecto/Password/password.html" style="color: darkgray;">¿Olvidaste la contraseña?</a></p>
+                   
+             </form></div> 
+         </section>
+        
+        <div><button  style="float: left;"  class="btn-cambiar-login"><a href="/proyecto/Login invitado/LoginInvitado.html"><h1>Entrar como invitado</h1></a></button></div>
+        
+         </main>
+
+         <footer class="footer-ventanas">
+            <img class="logoempresa"src="img/pmief_main_image.png" /> 
+            <img class="logoempresa" src="img/uca.jpg"  />
+             <p style="float: left;"  class="TOWER">TOWER GAME</p>
+        </footer>
+
+<script src="../Login/Script.js"></script>
+
+</body>
+</html>

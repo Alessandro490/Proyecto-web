@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Salas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light font ">
+            <a href="#" class="text-decoration-none text-dark mr-5"> Salas</a>
+            <a href="#" class="text-decoration-none text-dark mr-5"> Añadir personal</a>
+            <a href="#" class="text-decoration-none text-dark mr-5"> Estadisticas de uso</a>
+            <a href="#" class="text-decoration-none text-dark mr-5"> Avatares</a>
+            <a href="#" class="text-decoration-none text-dark mr-5"> Fondo</a>
+        </nav>
+    </header>
+    
+<main class=" d-flex flex-row justify-content-center ">
+ <div>
+    <section class="mt-5 ml-5 mg-r">
+        <div class="bg-light text-center div-c opacity  ">
+            <div class="text-dark mg-b mt-3 float-left">
+                <h2> Escriba el nombre de la sala</h2>
+            </div>
+
+            <div class="mt-5 ">
+                <input type="text" placeholder="Nombre" class="input">
+            </div>
+        </div>
+    </section>
+
+    <div  class="mg-t mg-sl ">
+        <button  class="btn btn-success btn-my "type="submit">Continuar</button>
+    </div>
+
+</div>
+
+
+ <div class="d-flex flex-column mt-4">
+    <section class="mt-4 ">
+        <div class="bg-light text-center div-cs opacity d-flex flex-column ">
+                <div class="mg-b mt-3 float-left ">
+                    <h4>Fecha de caducidad </h4>
+                </div>
+
+                <div class="">
+                    <label for="day">Dia</label>
+                    <select name="Dias" id="day" class="size">
+                        <option value=""> </option>
+                    </select>
+                    <label for="Mes">Mes</label>
+                    <select name="Mes" id="Mes" class="size">
+                        <option value="Mes"></option>
+                    </select>
+                    <label for="Hora">Hora</label>
+                    <select name="Hora" id="Hora" class="size">
+                        <option value="Hora"> </option>
+                    </select>
+                    <label for="Minuto">Minuto</label>
+                    <select name="Minuto" id="Minuto" class="size">
+                        <option value=""></option>
+                    </select>
+                </div>
+        </div>
+    </section>
+
+    <section class="mt-4">
+        <div class="bg-light text-center div-cs opacity">
+            <div class="mg-b mt-3 float-left ml-4 mr-4">
+                <h4 >Fecha y hora de ejecucion de la sala </h4>
+            </div>
+
+            <div >
+                <select name="Hora" id="" class="size mr-4">
+                    <option value=""> </option>
+                </select>
+
+                <select name="Minuto" id="" class="size mr-4">
+                    <option value=""></option>
+                </select>
+
+                <select name="" id="" class="size mr-4">
+                    <option value=""></option>
+                </select>
+
+                <select name="" id="" class="size mr-4">
+                    <option value=""></option>
+                </select>
+            </div>
+        </div>
+
+    </section>
+
+    
+</div>
+
+</main>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

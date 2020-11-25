@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+    body {
+      width: 100vw;
+  
+      .lbl-menu {
+        display: flex;
+        align-items: center;
+        height: 7vh;
+        background: rgb(0, 0, 0);
+        width: 100vw;
+        padding-top: 3vh;
+        padding-bottom: 4vh;
+  
+          li a {
+          font-size: 1vw;
+          text-align: center;
+          padding: 1vh 2vw 1vh 2vw;
+          color: #fff;
+          cursor: pointer;
+          transition: all 400ms ease;
+          margin: 0vh 0.5vw 0vh 1vw;
+          border-radius: 25px;
+          border: 2px solid white;
+          text-decoration: none;
+  
+        }
+  
+        #contenedor-avatarUser {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          right: 0;
+          width: 13vw;
+          height: 5vh;
+          border: 2px solid white;
+          border-radius: 25px;
+          margin: 1vh 1vw 0 0;
+  
+          label a{
+            display: flex;
+            color: white;
+            text-decoration: none;
+            margin: 0.1vh 0vw 0vh 4vw;
+            font-size: 1vw;
+          }
+          #avatar-usuario-btn {
+            margin: 0.1vh 0 0.1vh 0.2vw;
+            padding: 0.5vh 0vw 0.2vh 3vw;
+            text-align: center;
+            background-color: blanchedalmond;
+            width: 2.5vw;
+            height: 4.2vh;
+            border-radius: 25px;
+          }
+        }
+  
+        a:hover, #contenedor-avatarUser:hover {
+          background: #949596;
+        }
+      }
+  
+      .tab0, .tab1, .tab2, .tab3, .tab4, .tab5, .tab6 {
+              position: absolute;
+              background-image: url("../../IMG/Fondos/cobitos.jpg");
+              background-size: cover;
+              background-repeat: no-repeat;
+              width: 100vw;
+              height: 85vh;
+              line-height: 1.8;
+              transition: all 600ms ease;
+              padding: 2vw;
+              z-index: -1;
+              border: 0.2vw solid black;
+    }
+  }
+  }
