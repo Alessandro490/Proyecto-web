@@ -1,8 +1,42 @@
 .header-3{
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 8px 12px;
+        margin-bottom: 15px;
+        text-align: left;
 
 }
 
 .container-form{
-    margin-top: 5rem;
-    margin-left: 25rem;
+    background-color: #e1e1e1;
+    margin-top: 6rem;
+    margin-left: 30rem;
+    width: 40%;
+}
+.container{
+    border: none;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.input-text , .input-password, .button-sub {
+        border-radius: 4px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        padding: 8px 12px;
+        width: 70%;
+       
+    }
+
+.button-sub{
+    background-color: rgba(126, 192, 247, 0.603);
+    font-weight: bold;
+
 }
