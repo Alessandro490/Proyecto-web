@@ -26,6 +26,7 @@ function App() {
         <BrowserRouter>
           <div>
             <Header />
+            <Route exact path="/" component={PageLogin} />
             <Route exact path="/SALAS" component={PageSalas} />
             <Route exact path="/AÑADIR" component={PageAñadir} />
             <Route exact path="/ESTADISTICAS" component={PageEstadisticasUso} />
@@ -39,9 +40,6 @@ function App() {
         <Footer />
       </div>
 
-      <BrowserRouter>
-      <Route exact path="/" component={PageLogin} />
-      </BrowserRouter>
     </>
 
     
