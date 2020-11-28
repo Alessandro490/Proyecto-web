@@ -19,6 +19,6 @@
 - npm install mongoose
 - npm install nodemon
 
-##Vdeo
+# Video
 
 https://youtu.be/Hm5mya9C4gE
